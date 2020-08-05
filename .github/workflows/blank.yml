@@ -14,3 +14,38 @@ jobs:
       - uses: athul/waka-readme@master
         with:
           WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
+      - uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          # Required
+          commit_message: Apply automatic changes
+
+          # Optional branch to push to, defaults to the current branch
+          # branch: feature-123
+
+          # Optional options appended to `git-commit`
+          # See https://git-scm.com/docs/git-commit for a list of available options
+          # commit_options: '--no-verify --signoff'
+
+          # Optional glob pattern of files which should be added to the commit
+          # See the `pathspec`-documentation for git
+          # - https://git-scm.com/docs/git-add#Documentation/git-add.txt-ltpathspecgt82308203
+          # - https://git-scm.com/docs/gitglossary#Documentation/gitglossary.txt-aiddefpathspecapathspec
+          # file_pattern: src/*.js tests/*.js
+
+          # Optional local file path to the repository
+          # repository: .
+
+          # Optional commit user and author settings
+          commit_user_name: Luka Latkovic
+          commit_user_email: latkovic.luka@gmail.com
+          commit_author: Luka <actions@github.com>
+
+          # Optional tag message 
+          # Action will create and push a new tag to the remote repository and the defined branch
+          # tagging_message: 'v1.0.0'
+
+          # Optional options appended to `git-push`
+          # push_options: '--force'
+
+          # Optional: Disable dirty check and always try to create a commit and push
+          # skip_dirty_check: true
