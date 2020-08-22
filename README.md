@@ -24,3 +24,4 @@ Blade Template   23 mins         ██▓░░░░░░░░░░░░�
 Other            2 mins          ▒░░░░░░░░░░░░░░░░░░░░░░░░   00.98 % 
 ```
 <!--END_SECTION:waka-->
+<sub><sup>There is a chance that the timereader doesn't work for some reason.</sup></sub>
