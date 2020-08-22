@@ -14,17 +14,19 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
-
-<details>
-<summary>:computer:Right now i spend my time on..</summary>
-<br>
 <!--START_SECTION:waka-->
+```text
 Vue.js           1 hr 20 mins    █████████░░░░░░░░░░░░░░░░   36.28 % 
 PHP              58 mins         ██████▓░░░░░░░░░░░░░░░░░░   26.21 % 
 JavaScript       55 mins         ██████▒░░░░░░░░░░░░░░░░░░   24.88 % 
 Blade Template   23 mins         ██▓░░░░░░░░░░░░░░░░░░░░░░   10.54 % 
 Other            2 mins          ▒░░░░░░░░░░░░░░░░░░░░░░░░   00.98 % 
+```
 <!--END_SECTION:waka-->
+<details>
+<summary>:computer:Right now i spend my time on..</summary>
+<br>
+
 <sub><sup>**There is a chance that the timereader doesn't work for some reason.</sup></sub>
 </details>
 
