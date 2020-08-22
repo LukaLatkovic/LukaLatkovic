@@ -22,11 +22,13 @@ JavaScript       55 mins         ██████▒░░░░░░░░�
 Blade Template   23 mins         ██▓░░░░░░░░░░░░░░░░░░░░░░   10.54 % 
 Other            2 mins          ▒░░░░░░░░░░░░░░░░░░░░░░░░   00.98 % 
 ```
+
+<sub><sup>**There is a chance that the timereader doesn't work for some reason.</sup></sub>
 <!--END_SECTION:waka-->
+<!--
 <details>
 <summary>:computer:Right now i spend my time on..</summary>
 <br>
-
-<sub><sup>**There is a chance that the timereader doesn't work for some reason.</sup></sub>
 </details>
+-->
 
