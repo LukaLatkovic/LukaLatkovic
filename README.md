@@ -16,11 +16,8 @@ Here are some ideas to get you started:
 -->
 <!--START_SECTION:waka-->
 ```text
-Vue.js           1 hr 20 mins    █████████░░░░░░░░░░░░░░░░   36.28 % 
-PHP              58 mins         ██████▓░░░░░░░░░░░░░░░░░░   26.21 % 
-JavaScript       55 mins         ██████▒░░░░░░░░░░░░░░░░░░   24.88 % 
-Blade Template   23 mins         ██▓░░░░░░░░░░░░░░░░░░░░░░   10.54 % 
-Other            2 mins          ▒░░░░░░░░░░░░░░░░░░░░░░░░   00.98 % 
+Vue.js   0 secs          ████████████████▓░░░░░░░░   66.65 % 
+PHP      0 secs          ████████▒░░░░░░░░░░░░░░░░   33.35 % 
 ```
 <!--END_SECTION:waka-->
 <sub><sup>**There is a chance that the timereader doesn't work for some reason.</sup></sub>
