@@ -27,4 +27,4 @@ PHP      0 secs          ████████▒░░░░░░░░░�
 <br>
 </details>
 -->
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=LukaLatkovic&layout=compact)](https://github.com/anuraghazra/github-readme-stats)
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=LukaLatkovic&layout=compact&hide=css)](https://github.com/anuraghazra/github-readme-stats)
