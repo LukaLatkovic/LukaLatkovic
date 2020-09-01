@@ -16,8 +16,8 @@ Here are some ideas to get you started:
 -->
 <!--START_SECTION:waka-->
 ```text
-Vue.js   0 secs          ████████████████▓░░░░░░░░   66.65 % 
-PHP      0 secs          ████████▒░░░░░░░░░░░░░░░░   33.35 % 
+CSHTML   0 secs          █████████████████████████   100.00 % 
+C#       0 secs          ░░░░░░░░░░░░░░░░░░░░░░░░░   00.00 % 
 ```
 <!--END_SECTION:waka-->
 <sub><sup>**There is a chance that the timereader doesn't work for some reason.</sup></sub>
