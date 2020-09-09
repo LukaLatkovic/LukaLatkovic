@@ -16,8 +16,7 @@ Here are some ideas to get you started:
 -->
 <!--START_SECTION:waka-->
 ```text
-CSHTML   0 secs          █████████████████████████   100.00 % 
-C#       0 secs          ░░░░░░░░░░░░░░░░░░░░░░░░░   00.00 % 
+
 ```
 <!--END_SECTION:waka-->
 <sub><sup>**There is a chance that the timereader doesn't work for some reason.</sup></sub>
