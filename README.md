@@ -14,17 +14,11 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
-<!--START_SECTION:waka-->
-```text
-
-```
-<!--END_SECTION:waka-->
-<sub><sup>**There is a chance that the timereader doesn't work for some reason.</sup></sub>
 <!--
 <details>
 <summary>:computer:Right now i spend my time on..</summary>
 <br>
 </details>
 -->
-![Anurag's github stats](https://github-readme-stats.vercel.app/api?username=LukaLatkovic&show_icons=true)
+
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=LukaLatkovic&layout=compact&hide=css)](https://github.com/anuraghazra/github-readme-stats)
