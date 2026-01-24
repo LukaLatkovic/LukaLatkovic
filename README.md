@@ -20,5 +20,3 @@ Here are some ideas to get you started:
 <br>
 </details>
 -->
-
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=LukaLatkovic&layout=compact&hide=css)](https://github.com/anuraghazra/github-readme-stats)
