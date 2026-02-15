@@ -1,21 +1,36 @@
 <div class="min-h-screen">
-  <div class="mx-auto max-w-5xl px-6 py-10">
-    <div class="rounded-2xl border p-6"
-         [style.border-color]="'rgb(var(--border))'"
-         [style.background]="'rgb(var(--card))'">
-      <h1 class="text-3xl font-semibold">Luka Latković</h1>
-      <p class="mt-2" [style.color]="'rgb(var(--muted))'">
-        .NET / Angular • Microservices • Observability • CI/CD
-      </p>
-      <div class="mt-6 flex gap-3">
-        <a class="rounded-xl px-4 py-2 font-medium"
-           [style.background]="'rgb(var(--primary))'">
-          Projects
-        </a>
-        <a class="rounded-xl px-4 py-2 font-medium border"
-           [style.border-color]="'rgb(var(--border))'">
-          GitHub
-        </a>
+  <div class="mx-auto max-w-6xl px-6 py-10">
+    <div class="card p-8">
+      <div class="flex flex-wrap items-center justify-between gap-4">
+        <div>
+          <h1 class="text-3xl md:text-5xl font-extrabold tracking-tight">
+            Luka Latković
+          </h1>
+          <p class="mt-2 text-base md:text-lg" style="color: rgb(var(--muted));">
+            .NET / Angular • Microservices • CI/CD • Observability
+          </p>
+        </div>
+
+        <div class="flex gap-3">
+          <button class="btn-outline" (click)="theme.togglePalette()">Palette</button>
+          <button class="btn-outline" (click)="theme.toggleDark()">Dark</button>
+          <a class="btn" href="#projects">Projects</a>
+        </div>
+      </div>
+
+      <div class="mt-8 grid gap-4 md:grid-cols-3">
+        <div class="card p-5">
+          <div class="text-sm" style="color: rgb(var(--muted));">Focus</div>
+          <div class="mt-1 text-xl font-bold">Enterprise-grade APIs</div>
+        </div>
+        <div class="card p-5">
+          <div class="text-sm" style="color: rgb(var(--muted));">Strength</div>
+          <div class="mt-1 text-xl font-bold">Observability stack</div>
+        </div>
+        <div class="card p-5">
+          <div class="text-sm" style="color: rgb(var(--muted));">Delivery</div>
+          <div class="mt-1 text-xl font-bold">CI/CD automation</div>
+        </div>
       </div>
     </div>
   </div>
