@@ -1,0 +1,30 @@
+/* You can add global styles to this file, and also import other style files */
+
+@import "tailwindcss";
+
+:root {
+  --bg: 11 18 32;
+  --card: 17 27 46;
+  --text: 229 231 235;
+  --muted: 148 163 184;
+  --border: 31 42 68;
+
+  --primary: 6 182 212;
+  --accent: 163 230 53;
+}
+
+.dark {
+  --bg: 10 10 15;
+  --card: 18 18 26;
+  --text: 243 244 246;
+  --muted: 161 161 170;
+  --border: 35 35 54;
+
+  --primary: 124 58 237;
+  --accent: 245 158 11;
+}
+
+body {
+  background: rgb(var(--bg));
+  color: rgb(var(--text));
+}
