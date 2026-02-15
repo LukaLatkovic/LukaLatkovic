@@ -1,33 +1,33 @@
 <section id="home" class="py-14">
     <div class="card p-8 md:p-10">
-      <p class="text-sm" style="color: rgb(var(--muted));">Software Engineer</p>
+      <p class="text-sm" style="color: rgb(var(--muted));">{{ i18n.t('hero_role') }}</p>
 
       <h1 class="mt-2 text-3xl md:text-5xl font-extrabold tracking-tight">
         Luka Latković
       </h1>
 
       <p class="mt-3 text-base md:text-lg max-w-2xl" style="color: rgb(var(--muted));">
-        .NET / Angular • Enterprise systems • Reporting • Troubleshooting • Delivery
+        {{ i18n.t('hero_subtitle') }}
       </p>
 
       <div class="mt-6 flex flex-wrap gap-3">
-        <a class="btn" href="#experience">Experience</a>
-        <a class="btn-outline" href="#skills">Skills</a>
-        <a class="btn-outline" href="#contact">Contact</a>
+        <a class="btn" href="#experience">{{ i18n.t('hero_cta_experience') }}</a>
+        <a class="btn-outline" href="#skills">{{ i18n.t('hero_cta_skills') }}</a>
+        <a class="btn-outline" href="#contact">{{ i18n.t('hero_cta_contact') }}</a>
       </div>
 
       <div class="mt-8 grid gap-4 md:grid-cols-3">
         <div class="card p-5">
-          <div class="text-sm" style="color: rgb(var(--muted));">Focus</div>
-          <div class="mt-1 text-lg font-bold">.NET APIs & SQL</div>
+          <div class="text-sm" style="color: rgb(var(--muted));">{{ i18n.t('focus_title') }}</div>
+          <div class="mt-1 text-lg font-bold">{{ i18n.t('focus_value') }}</div>
         </div>
         <div class="card p-5">
-          <div class="text-sm" style="color: rgb(var(--muted));">Frontend</div>
-          <div class="mt-1 text-lg font-bold">Angular + Tailwind</div>
+          <div class="text-sm" style="color: rgb(var(--muted));">{{ i18n.t('frontend_title') }}</div>
+          <div class="mt-1 text-lg font-bold">{{ i18n.t('frontend_value') }}</div>
         </div>
         <div class="card p-5">
-          <div class="text-sm" style="color: rgb(var(--muted));">Edge</div>
-          <div class="mt-1 text-lg font-bold">Reporting impact</div>
+          <div class="text-sm" style="color: rgb(var(--muted));">{{ i18n.t('edge_title') }}</div>
+          <div class="mt-1 text-lg font-bold">{{ i18n.t('edge_value') }}</div>
         </div>
       </div>
     </div>
