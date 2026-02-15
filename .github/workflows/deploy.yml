@@ -32,6 +32,11 @@ jobs:
 
       - run: npm ci
       - run: npm run build
+      - run: |
+            echo "=== WHERE IS INDEX ==="
+            find dist -maxdepth 6 -name index.html -print
+            echo "=== DIST TOP ==="
+            ls -la dist
 
       - uses: actions/upload-pages-artifact@v3
         with:
