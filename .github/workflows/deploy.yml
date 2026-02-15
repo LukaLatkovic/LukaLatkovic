@@ -40,7 +40,7 @@ jobs:
 
       - uses: actions/upload-pages-artifact@v3
         with:
-          path: portfolio/dist
+          path: portfolio/dist/portfolio/browser
 
   deploy:
     runs-on: ubuntu-latest
