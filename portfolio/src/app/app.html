@@ -1,37 +1,33 @@
 <div class="min-h-screen">
-  <div class="mx-auto max-w-6xl px-6 py-10">
-    <div class="card p-8">
-      <div class="flex flex-wrap items-center justify-between gap-4">
-        <div>
-          <h1 class="text-3xl md:text-5xl font-extrabold tracking-tight">
-            Luka Latković
-          </h1>
-          <p class="mt-2 text-base md:text-lg" style="color: rgb(var(--muted));">
-            .NET / Angular • Microservices • CI/CD • Observability
-          </p>
-        </div>
+  <div class="mx-auto max-w-6xl px-6 py-6">
+    <header class="flex items-center justify-between gap-3">
+      <a href="#home" class="font-extrabold tracking-tight text-lg">
+        lukalatkovic
+      </a>
 
-        <div class="flex gap-3">
-          <button class="btn-outline" (click)="theme.togglePalette()">Palette</button>
-          <button class="btn-outline" (click)="theme.toggleDark()">Dark</button>
-          <a class="btn" href="#projects">Projects</a>
-        </div>
-      </div>
+      <nav class="hidden md:flex items-center gap-4 text-sm" style="color: rgb(var(--muted));">
+        <a href="#experience" class="hover:underline">Experience</a>
+        <a href="#skills" class="hover:underline">Skills</a>
+        <a href="#about" class="hover:underline">About</a>
+        <a href="#contact" class="hover:underline">Contact</a>
+      </nav>
 
-      <div class="mt-8 grid gap-4 md:grid-cols-3">
-        <div class="card p-5">
-          <div class="text-sm" style="color: rgb(var(--muted));">Focus</div>
-          <div class="mt-1 text-xl font-bold">Enterprise-grade APIs</div>
-        </div>
-        <div class="card p-5">
-          <div class="text-sm" style="color: rgb(var(--muted));">Strength</div>
-          <div class="mt-1 text-xl font-bold">Observability stack</div>
-        </div>
-        <div class="card p-5">
-          <div class="text-sm" style="color: rgb(var(--muted));">Delivery</div>
-          <div class="mt-1 text-xl font-bold">CI/CD automation</div>
-        </div>
+      <div class="flex items-center gap-2">
+        <button class="btn-outline" (click)="theme.togglePalette()">Palette</button>
+        <button class="btn-outline" (click)="theme.toggleDark()">Dark</button>
       </div>
-    </div>
+    </header>
+
+    <main class="mt-6">
+      <section-hero />
+      <section-experience />
+      <section-skills />
+      <section-about />
+      <section-contact />
+    </main>
+
+    <footer class="py-10 text-sm" style="color: rgb(var(--muted));">
+      © {{ date }} Luka Latković
+    </footer>
   </div>
 </div>
