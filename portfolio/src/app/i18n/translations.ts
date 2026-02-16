@@ -56,6 +56,18 @@ export const translations: Record<Lang, Record<string, string>> = {
     contact_linkedin: 'LinkedIn',
 
     footer: 'All rights reserved.',
+
+    techmap_title: 'Tech Map',
+    techmap_sub: 'A quick view of how I build and ship software.',
+    tm_backend: 'Backend',
+    tm_frontend: 'Frontend',
+    tm_data: 'Data',
+    tm_delivery: 'Delivery',
+    tm_backend_items: '.NET • C# • API design • integrations',
+    tm_frontend_items: 'Angular • Tailwind • UI systems',
+    tm_data_items: 'SQL • PL/SQL • reporting • large datasets',
+    tm_delivery_items: 'CI/CD mindset • troubleshooting • maintenance',
+    tm_view: 'View',
   },
 
   sr: {
@@ -113,5 +125,17 @@ export const translations: Record<Lang, Record<string, string>> = {
     contact_linkedin: 'LinkedIn',
 
     footer: 'Sva prava zadržana.',
+
+    techmap_title: 'Tech mapa',
+    techmap_sub: 'Brzi prikaz kako gradim i isporučujem softver.',
+    tm_backend: 'Backend',
+    tm_frontend: 'Frontend',
+    tm_data: 'Podaci',
+    tm_delivery: 'Isporuka',
+    tm_backend_items: '.NET • C# • dizajn API-ja • integracije',
+    tm_frontend_items: 'Angular • Tailwind • UI sistemi',
+    tm_data_items: 'SQL • PL/SQL • izveštaji • veliki skupovi podataka',
+    tm_delivery_items: 'CI/CD razmišljanje • troubleshooting • održavanje',
+    tm_view: 'Pogledaj',
   },
 };
