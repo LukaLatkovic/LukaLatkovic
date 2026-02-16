@@ -1,11 +1,10 @@
 import { Component } from '@angular/core';
-import { LangService } from '../i18n/lang.service';
+import { TranslateModule } from '@ngx-translate/core';
 
 @Component({
   selector: 'section-skills',
   standalone: true,
-  templateUrl: './skills.component.html'
-  })
-export class SkillsSection {
-  constructor(public i18n: LangService) {}
-}
+  imports: [TranslateModule],
+  templateUrl: './skills.component.html',
+})
+export class SkillsSection {}

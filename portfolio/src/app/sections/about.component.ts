@@ -1,11 +1,10 @@
 import { Component } from '@angular/core';
-import { LangService } from '../i18n/lang.service';
+import { TranslateModule } from '@ngx-translate/core';
 
 @Component({
   selector: 'section-about',
   standalone: true,
-  templateUrl: './about.component.html'
-  })
-export class AboutSection {
-  constructor(public i18n: LangService) {}
-}
+  imports: [TranslateModule],
+  templateUrl: './about.component.html',
+})
+export class AboutSection {}

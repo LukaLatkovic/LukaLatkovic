@@ -1,34 +1,50 @@
-:root {
-  /* Neutral */
-  --bg: 245 247 250;
+/* Light theme (default) */
+:root,
+[data-theme="light"] {
+  --bg: 248 250 252;
   --surface: 255 255 255;
   --card: 255 255 255;
-  --text: 17 24 39;
-  --muted: 75 85 99;
-  --border: 229 231 235;
+  --text: 15 23 42;
+  --muted: 100 116 139;
+  --border: 226 232 240;
 
-  /* PALETA A: Engineering/Observability */
-  --primary: 6 182 212;     /* cyan-500 */
-  --primary-2: 8 145 178;   /* cyan-600 */
-  --accent: 163 230 53;     /* lime-400 */
-  --accent-2: 132 204 22;   /* lime-500 */
+  --primary: 8 145 178;
+  --primary-2: 6 182 212;
+  --accent: 132 204 22;
+  --accent-2: 163 230 53;
+  --btn-text: 255 255 255;
+
+  --font-sans: 'DM Sans', system-ui, sans-serif;
 }
 
-  /* PALETA B: Creative/Premium */
-:root[data-theme="creative"] {
+/* Dark theme */
+.dark,
+[data-theme="dark"] {
+  --bg: 9 9 12;
+  --surface: 14 14 20;
+  --card: 18 18 26;
+  --text: 241 245 249;
+  --muted: 148 163 184;
+  --border: 30 41 59;
 
-  --primary: 124 58 237;    /* violet-600 */
-  --primary-2: 109 40 217;  /* violet-700 */
-  --accent: 245 158 11;     /* amber-500 */
-  --accent-2: 217 119 6;    /* amber-600 */
+  --primary: 34 211 238;
+  --primary-2: 8 145 178;
+  --accent: 163 230 53;
+  --accent-2: 132 204 22;
+  --btn-text: 9 9 12;
+
+  --font-sans: 'DM Sans', system-ui, sans-serif;
 }
 
-  /* Dark neutrals */
-:root.dark {
-  --bg: 10 10 15;
-  --surface: 14 14 22;
-  --card: 18 18 28;
-  --text: 243 244 246;
-  --muted: 161 161 170;
-  --border: 35 35 54;
+html {
+  font-family: var(--font-sans);
+}
+
+:root {
+  color-scheme: light;
+}
+
+.dark,
+[data-theme="dark"] {
+  color-scheme: dark;
 }

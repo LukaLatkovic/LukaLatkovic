@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { LangService } from '../i18n/lang.service';
+import { TranslateModule } from '@ngx-translate/core';
 
 type Tile = {
   key: 'backend' | 'frontend' | 'data' | 'delivery';
@@ -12,6 +12,7 @@ type Tile = {
 @Component({
   selector: 'section-tech-map',
   standalone: true,
+  imports: [TranslateModule],
   templateUrl: './tech-map.component.html',
 })
 export class TechMapSection {
@@ -21,6 +22,4 @@ export class TechMapSection {
     { key: 'data', icon: '📊', titleKey: 'tm_data', itemsKey: 'tm_data_items', anchor: '#experience' },
     { key: 'delivery', icon: '🚀', titleKey: 'tm_delivery', itemsKey: 'tm_delivery_items', anchor: '#contact' },
   ];
-
-  constructor(public i18n: LangService) {}
 }
