@@ -1,20 +1,20 @@
-<section id="about" class="py-14 md:py-16">
-  <h2 class="section-title">{{ 'about_title' | translate }}</h2>
+<section id="about" class="py-14 md:py-16" aria-labelledby="about-heading">
+  <h2 id="about-heading" class="section-title">{{ 'about_title' | translate }}</h2>
   <div class="mt-8 card p-6 md:p-8">
     <p class="text-muted leading-relaxed">{{ 'about_p1' | translate }}</p>
     <p class="mt-4 text-muted leading-relaxed">{{ 'about_p2' | translate }}</p>
     <div class="mt-8 grid gap-4 md:grid-cols-3">
       <div class="card stat-card p-5">
-        <div class="text-sm text-muted">Belgrade</div>
-        <div class="mt-1 font-bold">Serbia</div>
+        <div class="text-sm text-muted">{{ 'about_location_label' | translate }}</div>
+        <div class="mt-1 font-bold">{{ 'about_location_value' | translate }}</div>
       </div>
       <div class="card stat-card p-5">
-        <div class="text-sm text-muted">Education</div>
-        <div class="mt-1 font-bold">ITS (BSc), ITS (MSc in progress)</div>
+        <div class="text-sm text-muted">{{ 'about_education_label' | translate }}</div>
+        <div class="mt-1 font-bold">{{ 'about_education_value' | translate }}</div>
       </div>
       <div class="card stat-card p-5">
-        <div class="text-sm text-muted">Community</div>
-        <div class="mt-1 font-bold">AKUD / YouTube editing</div>
+        <div class="text-sm text-muted">{{ 'about_community_label' | translate }}</div>
+        <div class="mt-1 font-bold">{{ 'about_community_value' | translate }}</div>
       </div>
     </div>
   </div>

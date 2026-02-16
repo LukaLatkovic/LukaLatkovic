@@ -35,7 +35,7 @@ section[id] {
 }
 
 .bg-surface {
-  background: rgb(var(--card));
+  background: rgb(var(--surface));
 }
 
 .bg-accent {
@@ -120,6 +120,11 @@ section[id] {
 }
 .logo:hover {
   opacity: 0.85;
+}
+.logo:focus-visible {
+  outline: 2px solid rgb(var(--primary));
+  outline-offset: 2px;
+  border-radius: 0.25rem;
 }
 .nav {
   display: none;
@@ -249,6 +254,18 @@ html:not(.dark) .card {
   font-size: 0.875rem;
   color: rgb(var(--muted));
   margin: 0;
+}
+.footer-version {
+  display: inline;
+  font-family: ui-monospace, monospace;
+  font-size: 0.875rem;
+  white-space: nowrap;
+}
+.footer-version-icon {
+  display: inline-block;
+  margin-right: 0.25rem;
+  color: rgb(var(--muted));
+  vertical-align: -0.2em;
 }
 .back-to-top {
   font-size: 0.875rem;

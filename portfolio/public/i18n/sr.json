@@ -56,5 +56,14 @@
   "tm_data_items": "SQL • PL/SQL • izveštaji • veliki skupovi podataka",
   "tm_delivery_items": "CI/CD razmišljanje • troubleshooting • održavanje",
   "tm_view": "Pogledaj",
-  "tm_signal": "Gradjeno za jasnoću, brzinu i održivost"
+  "tm_signal": "Gradjeno za jasnoću, brzinu i održivost",
+  "aria_theme_light": "Prebaci na svetlu temu",
+  "aria_theme_dark": "Prebaci na tamnu temu",
+  "aria_lang_switch": "Promeni jezik",
+  "about_location_label": "Lokacija",
+  "about_location_value": "Beograd, Srbija",
+  "about_education_label": "Obrazovanje",
+  "about_education_value": "ITS (osnovne), ITS (master u toku)",
+  "about_community_label": "Zajednica",
+  "about_community_value": "AKUD / YouTube montaža"
 }

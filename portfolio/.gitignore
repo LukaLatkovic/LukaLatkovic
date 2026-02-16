@@ -39,6 +39,9 @@ testem.log
 /typings
 __screenshots__/
 
+# Generated build info (git hash injected at build time)
+src/app/version.generated.ts
+
 # System files
 .DS_Store
 Thumbs.db

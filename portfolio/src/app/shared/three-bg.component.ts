@@ -69,7 +69,7 @@ export class ThreeBgComponent implements AfterViewInit, OnDestroy {
   private camY = 0;
 
   private isPointerActive = false;
-  private pointerTimeout: any;
+  private pointerTimeout: ReturnType<typeof setTimeout> | undefined;
 
   constructor(private zone: NgZone) {}
 
@@ -78,11 +78,13 @@ export class ThreeBgComponent implements AfterViewInit, OnDestroy {
       window.matchMedia?.('(prefers-reduced-motion: reduce)')?.matches ?? false;
     if (!this.enabled || this.reduceMotion) return;
 
-    this.initThree();
-    this.onResize();
-
-    // Start loop outside Angular for performance
-    this.zone.runOutsideAngular(() => this.animate(0));
+    try {
+      this.initThree();
+      this.onResize();
+      this.zone.runOutsideAngular(() => this.animate(0));
+    } catch {
+      // WebGL unavailable (e.g. in tests or unsupported environment)
+    }
   }
 
   ngOnDestroy(): void {

@@ -56,5 +56,14 @@
   "tm_data_items": "SQL • PL/SQL • reporting • large datasets",
   "tm_delivery_items": "CI/CD mindset • troubleshooting • maintenance",
   "tm_view": "View",
-  "tm_signal": "Built for clarity, speed, and maintainability"
+  "tm_signal": "Built for clarity, speed, and maintainability",
+  "aria_theme_light": "Switch to light theme",
+  "aria_theme_dark": "Switch to dark theme",
+  "aria_lang_switch": "Switch language",
+  "about_location_label": "Location",
+  "about_location_value": "Belgrade, Serbia",
+  "about_education_label": "Education",
+  "about_education_value": "ITS (BSc), ITS (MSc in progress)",
+  "about_community_label": "Community",
+  "about_community_value": "AKUD / YouTube editing"
 }

@@ -1,14 +1,8 @@
 import { ApplicationConfig, provideBrowserGlobalErrorListeners } from '@angular/core';
+import { HttpClient, provideHttpClient } from '@angular/common/http';
 import { provideRouter, withHashLocation } from '@angular/router';
-import { provideHttpClient, HttpClient } from '@angular/common/http';
-import {
-  provideTranslateService,
-  TranslateLoader,
-} from '@ngx-translate/core';
-import {
-  TranslateHttpLoader,
-  TRANSLATE_HTTP_LOADER_CONFIG,
-} from '@ngx-translate/http-loader';
+import { TranslateLoader, provideTranslateService } from '@ngx-translate/core';
+import { TranslateHttpLoader, TRANSLATE_HTTP_LOADER_CONFIG } from '@ngx-translate/http-loader';
 
 import { routes } from './app.routes';
 
@@ -23,6 +17,7 @@ export const appConfig: ApplicationConfig = {
     },
     provideTranslateService({
       defaultLanguage: 'en',
+      fallbackLang: 'en',
       loader: {
         provide: TranslateLoader,
         useClass: TranslateHttpLoader,

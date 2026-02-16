@@ -12,7 +12,15 @@ export class ThemeService {
 
   init(): void {
     const stored = localStorage.getItem(LS_DARK);
-    this._dark = stored !== '0';
+    if (stored === null) {
+      const prefersDark =
+        typeof window !== 'undefined' &&
+        typeof window.matchMedia === 'function' &&
+        window.matchMedia('(prefers-color-scheme: dark)').matches;
+      this._dark = prefersDark;
+    } else {
+      this._dark = stored !== '0';
+    }
     this.apply();
   }
 
